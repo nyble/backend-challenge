@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Stonks Go Up inc.",
+    "id": "prov_1",
+    "funding_type_capabilities": [
+      "debit",
+      "credit"
+    ],
+    "network_capabilities": [
+      "visa"
+    ],
+    "pricing": "Interchange + 50 cents"
+  },
+  {
+    "name": "Swipe Ltd.",
+    "id": "prov_2",
+    "funding_type_capabilities": [
+      "debit",
+      "credit"
+    ],
+    "network_capabilities": [
+      "visa",
+      "mastercard"
+    ],
+    "pricing": "3% + 30 cents"
+  },
+  {
+    "name": "AliDoesntPay",
+    "id": "prov_3",
+    "funding_type_capabilities": [
+      "debit"
+    ],
+    "network_capabilities": [
+      "visa"
+    ],
+    "pricing": "0.85$ flat per transaction for Visa Debit only, otherwise Interchange + 50 cents"
+  }, 
+  {
+    "name": "Silicon Valley Bonk",
+    "id": "prov_4",
+    "funding_type_capabilities": [
+      "eft"
+    ],
+    "network_capabilities": [
+      "acss"
+    ],
+    "pricing": "1.10$ flat per transaction for EFT (ACSS)"
+  }
+]

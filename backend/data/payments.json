@@ -1,0 +1,122 @@
+[
+  {
+    "id": "pmt_1",
+    "amount": 2099,
+    "customer_id": "cus_1",
+    "payment_method": {
+      "id": "pmd_1",
+      "type": "card",
+      "network": "visa",
+      "brand": "Visa Debit",
+      "funding_type": "debit"
+    }
+  },
+  {
+    "id": "pmt_2",
+    "amount": 599,
+    "customer_id": "cus_1",
+    "payment_method": {
+      "id": "pmd_1",
+      "type": "card",
+      "network": "visa",
+      "brand": "Visa Debit",
+      "funding_type": "debit"
+    }
+  },
+  {
+    "id": "pmt_3",
+    "amount": 4499,
+    "customer_id": "cus_2",
+    "payment_method": {
+      "id": "pmd_2",
+      "type": "card",
+      "network": "mastercard",
+      "brand": "Mastercard World Elite",
+      "funding_type": "credit"
+    }
+  },
+  {
+    "id": "pmt_4",
+    "amount": 8099,
+    "customer_id": "cus_3",
+    "payment_method": {
+      "id": "pmd_3",
+      "type": "bank",
+      "network": "acss",
+      "brand": "n/a",
+      "funding_type": "eft"
+    }
+  },
+  {
+    "id": "pmt_5",
+    "amount": 799,
+    "customer_id": "cus_3",
+    "payment_method": {
+      "id": "pmd_4",
+      "type": "card",
+      "network": "visa",
+      "brand": "Visa Debit",
+      "funding_type": "debit"
+    }
+  },
+  {
+    "id": "pmt_6",
+    "amount": 1299,
+    "customer_id": "cus_4",
+    "payment_method": {
+      "id": "pmd_5",
+      "type": "card",
+      "network": "visa",
+      "brand": "Visa Platinum",
+      "funding_type": "credit"
+    }
+  },
+  {
+    "id": "pmt_7",
+    "amount": 8000,
+    "customer_id": "cus_5",
+    "payment_method": {
+      "id": "pmd_6",
+      "type": "card",
+      "network": "visa",
+      "brand": "Visa Infinite",
+      "funding_type": "credit"
+    }
+  },
+  {
+    "id": "pmt_8",
+    "amount": 499,
+    "customer_id": "cus_5",
+    "payment_method": {
+      "id": "pmd_6",
+      "type": "card",
+      "network": "visa",
+      "brand": "Visa Infinite",
+      "funding_type": "credit"
+    }
+  },
+  {
+    "id": "pmt_9",
+    "amount": 499,
+    "customer_id": "cus_6",
+    "payment_method": {
+      "id": "pmd_7",
+      "type": "card",
+      "network": "visa",
+      "brand": "Visa Infinite Privilege",
+      "funding_type": "credit"
+    }
+  },
+  {
+    "id": "pmt_10",
+    "amount": 2099,
+    "customer_id": "cus_2",
+    "payment_method": {
+      "id": "pmd_2",
+      "type": "card",
+      "network": "mastercard",
+      "brand": "Mastercard World Elite",
+      "funding_type": "credit"
+    }
+  }
+]
