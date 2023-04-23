@@ -40,9 +40,7 @@ _Follow these instructions carefully, wrong or incomplete submissions will be ig
 
 At Unicorn Corp. 🦄 we are trying to optimize our payment processing. We have different payment providers that offer different pricing and support different capabilities. E.g. Provider A can only process mastercard and charges X amount whereas Provider B can process both Visa and Mastercard but charges Y amount per transaction.
 
-Your goal will be to build a service (graphql endpoint) that can optimally route payments to its optimal provider. 
-
-### Goal 
+### Your Goal 
 
 We want to minimize the total processing cost for all payments. 
 
@@ -50,9 +48,8 @@ We want to minimize the total processing cost for all payments.
 
 ### Main Deliverable: GraphQL Query Endpoint
 
-The main interface to your routing service will be the `routePayment` query endpoint. 
+Build a GraphQL query endpoint (`routePayment`) for the routing service will take a payment object and return the payment provider ID and name as well as the associated payment processing cost. 
 
-The query endpoint will return the provider ID and name as well as the payment processing cost. 
 
 ```{gql}
 query {
