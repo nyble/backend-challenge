@@ -14,7 +14,7 @@ The payment routing service you will be creating will help optimize payment proc
 
 ## General Instructions
 
-_Follow these instructions carefully_
+
 
 * From the moment you receive this challenge, you will have exactly __1 week__ to complete it. The challenge should only take a few hours to complete, so plan your time as you see fit.
 * You are allowed to use whatever references online __but__ your work must be yours alone, collaboration is not permitted.
@@ -22,6 +22,7 @@ _Follow these instructions carefully_
 * Create a new branch using the naming format `th-backend-<YOUR FIRST NAME>-<YOUR LAST NAME>` in all lowercase, and write your implementation code on that branch.
 
 **Submission instructions**
+_Only when ready to submit your work_
 
 * Open a new **Pull Request** from your working branch into `main` and title it `Take-Home Challenge Submission`
 * In the PR clearly write the following
@@ -36,7 +37,6 @@ _Follow these instructions carefully, wrong or incomplete submissions will be ig
 
 ## 🚧 Task Specifications & Instructions 🚧
 
-### Context
 
 At Unicorn Corp. 🦄 we are trying to optimize our payment processing. We have different payment providers that offer different pricing and support different capabilities. E.g. Provider A can only process mastercard and charges X amount whereas Provider B can process both Visa and Mastercard but charges Y amount per transaction.
 
@@ -88,7 +88,7 @@ In order to interact with your endpoint you can use any Postman client you want 
 
 * Provider data: we have included the data in the `data/providers.json` file. Each provider will describe its pricing structure alongside its capabilities. 
 
-* **Datasheet**: refer to the `data/datasheet.md` for better explanation of the data model and provider pricing. (Read it carefully) [**Read the Datasheet Here**](https://github.com/nyble/take-home-challenge/blob/main/data/datasheet.md)
+* **Datasheet**: refer to the `data/datasheet.md` for better explanation of the data model and provider pricing. (Read it carefully) [**Read the Datasheet Here**](https://github.com/nyble/backend-challenge/blob/main/data/datasheet.md)
 
 
 ## Getting started with scaffold/boilerplate 🚀
